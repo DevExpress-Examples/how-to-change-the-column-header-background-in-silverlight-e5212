@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="ColumnsSeparator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    xmlns:columnsSeparator="clr-namespace:ColumnsSeparator"
+    mc:Ignorable="d"
+    d:DesignHeight="500" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+      <UserControl.DataContext>
+        <columnsSeparator:DataContainer />
+      </UserControl.DataContext>
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxg:TreeListControl ItemsSource="{Binding Data}">
+            <dxg:TreeListControl.Bands>
+                <dxg:TreeListControlBand Header="Band 1">
+                    <dxg:TreeListColumn Header="Str 1" FieldName="Name"/>
+                    <dxg:TreeListColumn Header="Str 2" FieldName="Name"/>
+                    <dxg:TreeListColumn Header="Str 3" FieldName="Name"/>
+                </dxg:TreeListControlBand>
+                <dxg:TreeListControlBand Header="Band 2">
+                    <dxg:TreeListColumn Header="Str 1" FieldName="Name"/>
+                    <dxg:TreeListColumn Header="Str 2" FieldName="Name"/>
+                    <dxg:TreeListColumn Header="Str 3" FieldName="Name"/>
+                </dxg:TreeListControlBand>
+            </dxg:TreeListControl.Bands>
+            <dxg:TreeListControl.View>
+                <dxg:TreeListView AllowEditing="False"/>
+            </dxg:TreeListControl.View>
+        </dxg:TreeListControl>
+    </Grid>
+</UserControl>
