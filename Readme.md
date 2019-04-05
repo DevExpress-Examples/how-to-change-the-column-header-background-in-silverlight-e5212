@@ -3,9 +3,9 @@
 
 * [Dictionary1.xaml](./CS/ColumnsSeparator/Dictionary1.xaml) (VB: [Dictionary1.xaml](./VB/ColumnsSeparator/Dictionary1.xaml))
 * [MainPage.xaml](./CS/ColumnsSeparator/MainPage.xaml) (VB: [MainPage.xaml](./VB/ColumnsSeparator/MainPage.xaml))
-* [MainPage.xaml.cs](./CS/ColumnsSeparator/MainPage.xaml.cs) (VB: [MainPage.xaml](./VB/ColumnsSeparator/MainPage.xaml))
+* [MainPage.xaml.cs](./CS/ColumnsSeparator/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/ColumnsSeparator/MainPage.xaml.vb))
 * [Dictionary1.xaml](./CS/Dictionary1.xaml) (VB: [Dictionary1.xaml](./VB/Dictionary1.xaml))
-* [MainPage.xaml](./CS/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/MainPage.xaml.vb))
+* [MainPage.xaml](./CS/MainPage.xaml) (VB: [MainPage.xaml](./VB/MainPage.xaml))
 * [MainPage.xaml.cs](./CS/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/MainPage.xaml.vb))
 <!-- default file list end -->
 # How to change the column header background in Silverlight
